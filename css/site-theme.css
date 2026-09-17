@@ -1,0 +1,119 @@
+:root {
+  --site-sky: #ade8f4;
+  --site-ink: #111827;
+  --site-deep: #023047;
+  --site-blue: #0563c1;
+  --site-surface: #e8f8fb;
+}
+
+html,
+body {
+  background: var(--site-sky) !important;
+  color: var(--site-ink) !important;
+}
+
+body,
+body.w3-black,
+body.w3-light-grey {
+  background: var(--site-sky) !important;
+  color: var(--site-ink) !important;
+}
+
+.w3-sidebar,
+.w3-bar.w3-black,
+.w3-black,
+header.w3-black {
+  background: var(--site-deep) !important;
+  color: #fff !important;
+}
+
+.w3-sidebar .w3-button,
+.w3-bar .w3-button {
+  color: #fff !important;
+}
+
+.w3-sidebar .w3-button:hover,
+.w3-sidebar .w3-button.w3-black,
+.w3-bar .w3-button:hover {
+  background: #03506f !important;
+}
+
+.w3-text-white,
+.w3-text-grey,
+.w3-text-light-grey {
+  color: var(--site-ink) !important;
+}
+
+header .w3-text-white,
+.w3-sidebar .w3-text-white,
+.w3-bar .w3-text-white {
+  color: #fff !important;
+}
+
+a,
+a.w3-text-white,
+a.w3-hover-text-green,
+.w3-text-teal,
+.w3-hover-text-green {
+  color: var(--site-blue) !important;
+}
+
+.w3-sidebar a,
+.w3-bar a {
+  color: #fff !important;
+}
+
+.w3-button.w3-white,
+.w3-button.w3-blue,
+.w3-button.w3-teal {
+  background: var(--site-deep) !important;
+  color: #fff !important;
+}
+
+.w3-table-all {
+  background: var(--site-surface) !important;
+  color: var(--site-ink) !important;
+}
+
+.w3-white,
+.w3-card,
+.w3-card-4 {
+  background: var(--site-surface) !important;
+  color: var(--site-ink) !important;
+}
+
+.w3-table-all thead,
+.w3-table-all .w3-black,
+.w3-table-all .w3-blue {
+  background: var(--site-deep) !important;
+  color: #fff !important;
+}
+
+.w3-content,
+.w3-container,
+.w3-row {
+  color: var(--site-ink);
+}
+
+.site-profile-header {
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+  gap: 20px !important;
+  width: 100%;
+  min-height: 120px;
+  box-sizing: border-box;
+}
+
+.site-profile-header img {
+  flex: 0 0 120px;
+  width: 120px !important;
+  height: 120px !important;
+  margin: 0 !important;
+}
+
+.site-profile-header h1 {
+  flex: 0 1 auto;
+  margin: 0 !important;
+  line-height: 1.2;
+}
